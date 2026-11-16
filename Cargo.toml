@@ -65,7 +65,7 @@ wuff = "0.2.9"
 # The same crate and version wuff already decodes it with (no new code in the build): pure Rust,
 # `forbid(unsafe_code)` in its default build, no_std-capable (builds for wasm), BSD-3-Clause/MIT.
 brotli-decompressor = "5"
-vello_cpu = "0.2"
+vello_cpu = "0.4"
 image = { version = "0.25", default-features = false }
 craft-image-codecs = { git = "https://github.com/storytold/craft-libs", rev = "41fb227542efb8a7748caa1c659f271d8605303c", version = "=0.1.0" }
 craft-tiff = { git = "https://github.com/storytold/craft-libs", rev = "6ef2c053dfa758a9e292ff6ce4398bcd84aab1a1", version = "=0.1.0" }
